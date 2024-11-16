@@ -811,11 +811,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 0813924b-6f91-4f18-aca4-f8ae76f6f00d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Horror-Escape
+  organizationId: unity_jt3ua84xpgsblq
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
