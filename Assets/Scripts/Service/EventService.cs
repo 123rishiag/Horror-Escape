@@ -1,11 +1,12 @@
+
 public class EventService
 {
     private static EventService instance;
     public static EventService Instance
     {
-        get 
+        get
         {
-            if(instance == null)
+            if (instance == null)
             {
                 instance = new EventService();
             }
