@@ -24,6 +24,8 @@ public class CameraView : MonoBehaviour
     private void Start()
     {
         originalPosition = transform.localPosition;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     private void Update()
