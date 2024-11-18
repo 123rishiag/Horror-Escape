@@ -16,6 +16,7 @@ public class PlayerController
     public PlayerController(PlayerView playerView, PlayerScriptableObject playerScriptableObject)
     {
         this.playerView = playerView;
+        this.playerView.enabled = true;
         this.playerView.SetController(this);
         this.playerScriptableObject = playerScriptableObject;
         this.playerScriptableObject.KeysEquipped = 0;
@@ -65,7 +66,11 @@ public class PlayerController
 
     private void onLightsOffByGhost() => PlayerState = PlayerState.InDark;
     private void OnKeyPickedUp(int keys) => KeysEquipped = keys;
-    private void DisableControls() => playerView.enabled = false;
+    private void DisableControls()
+    {
+        if(playerView != null)
+            playerView.enabled = false;
+    }
 
     private void getInput()
     {
