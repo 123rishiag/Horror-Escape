@@ -1,12 +1,15 @@
-# Horror Escape Game
+# Horror Escape
 
-A spine-chilling horror escape game where players must survive, collect keys, unlock doors, and manage their sanity in a dark, immersive environment. The game incorporates the Observer Pattern to handle in-game events, such as lights turning off due to ghostly influences, object interactions, and environmental challenges like Rat Rush and Skull Drop that test the player’s sanity management.
+A spine-chilling horror escape game where players must survive, collect keys, unlock doors, and manage their sanity in a dark, immersive environment. 
+The game incorporates the Observer Pattern to handle in-game events, such as lights turning off due to ghostly influences, object interactions, 
+and environmental challenges like Rat Rush and Skull Drop that test the player’s sanity management.
 
 ## Features
 
 ### Game Mechanics
 - **Key Collection and Door Unlocking**: Players must find all required keys to unlock the final door and progress through the game. Each door requires a specific number of keys to be unlocked.
-- **Sanity Management**: The player's sanity is affected by various environmental triggers. When lights turn off unexpectedly, the player's sanity meter increases rapidly. Environmental challenges like Rat Rush and Skull Drop cause sudden spikes in sanity, adding pressure and tension to the gameplay. Potions can be used to decrease sanity levels, helping players regain composure.
+- **Sanity Management**: The player's sanity is affected by various environmental triggers. When lights turn off unexpectedly, the player's sanity meter increases rapidly. 
+Environmental challenges like Rat Rush and Skull Drop cause sudden spikes in sanity, adding pressure and tension to the gameplay. Potions can be used to decrease sanity levels, helping players regain composure.
 - **Interactable Objects**: Players can interact with various objects, such as doors, light switches, keys, and potions, each impacting their progress and survival.
 
 ### Project Structure
@@ -59,7 +62,8 @@ A spine-chilling horror escape game where players must survive, collect keys, un
 ## Learning Outcomes
 - **Observer Pattern Implementation**: Applied an event-driven system using the Observer Pattern for flexible interactions and events.
 - **Key and Door Mechanics**: Developed a key collection system tied to door unlocking logic and environmental triggers.
-- **Sanity System**: Designed a reactive sanity management system affected by environmental triggers, with rapid increases from lights turning off and sudden spikes from environmental challenges, mitigated by potion usage.
+- **Sanity System**: Designed a reactive sanity management system affected by environmental triggers, with rapid increases from lights turning off and sudden spikes 
+from environmental challenges, mitigated by potion usage.
 - **UI Design and Interaction**: Created an engaging and reactive UI for real-time player feedback.
 
 ## Setting Up the Project
