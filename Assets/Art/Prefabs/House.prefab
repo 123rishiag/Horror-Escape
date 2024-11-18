@@ -15457,7 +15457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7900431110703998684}
   - component: {fileID: 5090392313767938660}
-  - component: {fileID: 5537956443765122184}
+  - component: {fileID: 9105035751362336219}
   m_Layer: 0
   m_Name: PlayerEscapedTrigger
   m_TagString: Untagged
@@ -15493,7 +15493,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5537956443765122184
+--- !u!114 &9105035751362336219
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
