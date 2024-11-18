@@ -10,8 +10,8 @@ public class SkullDropEvent : MonoBehaviour
     {
         if (other.GetComponent<PlayerView>() != null && GameService.Instance.GetPlayerController().KeysEquipped >= keysRequiredToTrigger)
         {
-            onSkullDrop();
             EventService.Instance.OnSkullDropEvent.InvokeEvent();
+            onSkullDrop();
             GameService.Instance.GetSoundView().PlaySoundEffects(soundToPlay);
             GetComponent<Collider>().enabled = false;
         }
