@@ -12359,6 +12359,7 @@ GameObject:
   - component: {fileID: 6753526516326770099}
   - component: {fileID: 6755825956225937537}
   - component: {fileID: 6765534445670468345}
+  - component: {fileID: 1196739003}
   m_Layer: 0
   m_Name: Liquid.001
   m_TagString: Untagged
@@ -12431,6 +12432,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1196739003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6750954143108586259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1030b30bb78a24282ed6b17523aa48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundType: 9
 --- !u!1 &6751095511605281901
 GameObject:
   m_ObjectHideFlags: 0
@@ -15443,7 +15457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7900431110703998684}
   - component: {fileID: 5090392313767938660}
-  - component: {fileID: 3542250534102899431}
+  - component: {fileID: 5537956443765122184}
   m_Layer: 0
   m_Name: PlayerEscapedTrigger
   m_TagString: Untagged
@@ -15479,7 +15493,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3542250534102899431
+--- !u!114 &5537956443765122184
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15488,7 +15502,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6873705474745749087}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac8787843487b364ab9d933c1a9bb5bd, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f46455d23620a6429b2e40f3ca34c62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundToPlay: 7
