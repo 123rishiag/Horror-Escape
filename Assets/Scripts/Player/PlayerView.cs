@@ -6,7 +6,11 @@ public class PlayerView : MonoBehaviour
     private Rigidbody playerRigidbody;
     private PlayerController playerController;
 
-    private void Start() => playerRigidbody = GetComponent<Rigidbody>();
+    private void Start()
+    {
+        LockUIControls();
+        playerRigidbody = GetComponent<Rigidbody>();
+    }
 
     private void Update()
     {
@@ -37,6 +41,15 @@ public class PlayerView : MonoBehaviour
             GameService.Instance.GetInstructionView().HideInstruction();
         }
     }
+    public void LockUIControls()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+    public void UnlockUIControls()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
     public void SetController(PlayerController _playerController) => playerController = _playerController;
-
 }

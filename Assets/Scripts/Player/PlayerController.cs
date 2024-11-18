@@ -16,7 +16,6 @@ public class PlayerController
     public PlayerController(PlayerView playerView, PlayerScriptableObject playerScriptableObject)
     {
         this.playerView = playerView;
-        this.playerView.enabled = true;
         this.playerView.SetController(this);
         this.playerScriptableObject = playerScriptableObject;
         this.playerScriptableObject.KeysEquipped = 0;
@@ -70,6 +69,8 @@ public class PlayerController
     {
         if(playerView != null)
             playerView.enabled = false;
+
+        playerView.UnlockUIControls();
     }
 
     private void getInput()
